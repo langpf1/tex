@@ -1,0 +1,109 @@
+TeX和LaTeX排版软件和MS的Word软件不同，不个是''所见即所得''(WYSIWYG，what you is see what you get)，一个是''所想即所得''(WYWWYG，what you want what you get)。风格上迥然不同，因此需要稍微改变一下自己的习惯。
+
+TeX(LaTeX)的一个很关键的过程是找一本不错的参考文献，现在有关TeX(LaTeX)学习的参考文献，网上很多很多，国外的CTAN是一个综合站点：http://www.ctan.org，只是E文看起来有些不如中文方便。国内有两个TeX(LaTeX)的顶尖网站，有关TeX(LaTeX)的所有问题几乎都可以在那里找到答案，那里有很多的高手，并且可以下载很多不错的文献资料。两个网站：http://www.ctex.org，http://www.chinatex.org，分别出了Ctex中文套件(现在版本达到2.4.0，不到4百M)以及ChinaTex CD中文套件(6百多M，正好可以刻录成一张光盘)，同时可以提供许多宏包及相关的文档说明。其中的ctex-faq.pdf以及它的源文件ctex-faq.tex是最实用的(吴凌云，CTEX FAQ(常见问题集)，Version 0.4 beta(86)，2004.9.27)，可以从网站直接下载，只是网络速度有时挺慢。另外Chinatex站点的版主西安交大的hooklee 的个人主页：http://www.hooklee.com是一个非常值得去的地方，好东西多多，呵呵。
+
+无论安装Ctex中文套件还是Chinatex，过程都比较简单，版主们替大家都想周到了，因此带有足够的附件和实用工具，如果计算机的容量还可以，建议完全安装好了，省得到时缺这缺那的，挺麻烦。此外Linux下的texlive光盘也不错，现在已经出来了texlive2004可以参考：http://www.tug.org，可惜我对Linux不太熟悉，没有用过。
+
+安装后，其实计算机上就有很多的文献可供参考，有pdf、word、ps以及dvi格式，不用费神再在网上东找西找。具体可以参见上述的ctex和chinatex网站，那里有很多精华帖子。关于TeX(LaTeX)的学习，毫无疑问，Knuth(高德纳)：Donald~E.~Knuth,''The \TeX book'', Addison-Wesley, 1984，http://www-cs-faculty.stanford.edu/\%7Eknuth/，是权威之选，本书排版堪称完美，从中可以看出大师的魅力。只要你安装了软件，就可以找到''texbook''，实在找不到，就搜索一下。现在有中文的翻译，可以去清华大学的王的个人主页上下载
+
+：http://learn.tsinghua.edu.cn/homepage/015450/
+
+此外，最好的一个简短详细的文献是''lshort''，这个中文都有(一份不太简短的LaTeX介绍)，安装好的计算机自带了ctex-faq，其他的文献可以借鉴ctex-faq，LaTeX的插图文档：http://learn.tsinghua.edu.cn/homepage/，网上可以找到。如果买一本也行，系统地看一下，开始可能挺吃劲，慢慢熟悉了很快就知道你付出的努力是值得的，TeX的确是一个很好的软件。如果有问题，可以到相应的论坛提问，清华的bbs有专门的tex版面，当然到ctex和chinatex的论坛更值得，那里有很多高手，可以解决很多实际的问题。其实可以对照相应的.cls，.sty，.dtx等模板的说明文档进行学习，这样效率挺高，而且很容易明白如何利用命令和修改已有的命令，也可以出国外的论坛看看，好东西总是有的。
+
+此外，Mackichan公司：http://www.mackichan.com/，提供的Scientific系列软件(Scientific Workplace，Scientific Word，Scientific NoteBook)具有强大的编辑排版能力，采用TrueTeX软件，能生成极为漂亮的页面，而且提供很多不同出版社和杂志社的模板类型，许多模板非常形象具体，把模板编辑一下就可以看见具体的排版结果，只要照着它的格式编辑内容就可以了。对数学公式处理起来也是很轻松，方便快捷，能大大提供工作效率。不过，它的编译速度好像不如TeX，同时由于使用Scientific系列软件的用户相比TeX用户少了很多，这方面的说明文档也不是很多。在中文方面支持度可能不如TeX或者LaTeX，不过CTeX论坛上有一个Scientific系列软件的专版，给出很多实用工具和建议，相当不错。刚开始有一个适应的过程，只要坚持下来，肯定会很快就掌握了。
+
+数学公式的输入编写和编号是一个很头疼的问题，尤其是公式比较多比较复杂的时间，更是让人焦头烂额，一旦写好了修改起来很麻烦。MS Word中的公式编辑器是采用Design Science公司：http://http://www.dessci.com/，产品，功能不错，支持即打即现。不过Design Science公司的另一个产品MathType(现在已经到5.2版本了，还有一些其他的配套产品，具体请到该公司的网站查看) 是一个强大的数学公式编辑器，与常见的文字处理软件和演示程序配合使用，能够在各种文档中加入复杂的数学公式和符号。
+
+下面是一些小小的总结：
+
+1、中文问题集ctex-faq是一个很好的资料，它的源文件ctex-faq.tex更是一个很有价值的参考，在GB.cpx和ctex-faq.sty中有不少常见的设置方法，值得认真研读，在此基础上可以修改成自己喜欢的格式，由于其中一些命令涉及到相对底层的知识，因此需要一些扩展知识，刚开始可能不能看懂，Knuth(高德纳)的''The TeXbook''是一个知识库，可以参考。
+
+2、关于TeX和LaTeX的中英文lshort介绍以及它的中文源文件是很好的参考。
+
+3、关于TeX和LaTeX的插图方面可以关参考王磊的《latex中文插图指南》，配合它的源文件，可以非常有效 学习和掌握插图方面的技巧。
+
+4、关于TeX和LaTeX在数学模式下的应用，''Math Into LaTeX''以及''The latex cmpanion-Chapter 8 Higher Mathematics''，中文套装CTeX和LaTeX中都有这个pdf文件，从那里可以学到数学模式下的LaTeX的具体应用。
+
+5、关于LaTeX的版面格式layout，在计算机上有一份参考资料可以利用''Changing the layout with LATEX''(1999，pdf格式)，也可以看layout.dvi，layouts.dvi帮助文档。
+
+6、关于LaTeX的画图方面，有两个软件不错，一个是gnuplot，一个是MetsPost，这方面的资料也不少。前者可以去它的主页：http://www.gnuplot.info/index.html，看看，后者MetaPost 是由 Bell Labs 的 John Hobby 设计的一种绘图语言，它的语法近似于 MetaFont. 实际上，John Hobby 在 Stanford 的时候曾经为 Knuth 的MetaFont的设计作出过很大的贡献。
+
+MetaPost 是一种描述性的语言， 用它可以作出非常漂亮的图形。underline{emph{特别适合于精确的图形}}.MetaPost 可以生成最高质量的 EPS 文件，可以方便的插入到TeX文件里。生成的 dvi 文件可以没有任何问题的被 dvips 转换成 PS， 或者被 dvipdfm 转换成 PDF。MetaPost 还可以用来设计 Type1 字体。可以先参考清华王垠主页，然后参考John Hobby为MetaPost写的用户手册''A User's Manual for MetaPost''。或者去John Hobby的主页：
+
+http://cm.bell-labs.com/who/hobby/MetaPost.html，关于MetaPost的大量实例可以参考: http://w3.mecanica.upm.es/metapost/metagraf.php
+
+此外，画图的宏包Pstrick也是一个不错的选择。其实画图程序有很多，比如：gnuplot、MetsPost、grace、proser、visio、SmartDraw、Photoshop、beamer等等，每个都有自己的特长和缺点，因此相互补充而不是代替关系，主要还是看用户的实际应用场合。
+
+7、网上有一份早期的LaTeX的介绍''EssentialLaTeX''cite{EssentialLaTeX}可以参考。
+
+8、利用TeXPoint软件可以将LaTeX 编写的代码(如公式)在 PowerPoint 中显示。
+
+9、 关于幻灯片的制作，有不少方案：
+
+    1）、PDFScreen：界面过于复杂，配色难看；
+
+    2）、ConTeXt：非常适合做幻灯片的 format；
+
+    3）、TeXpower + FoilTeX：简洁。但控制 overlay (即一段内容在第几张幻灯片上出现) 太麻烦；
+
+    4）、 (ha) prosper：可以选择许多类似 PowerPoint 的主题；编译麻烦，需要 latex-> dvips -> ps2pdf 三步。Prosper是一个制作透明胶片的LaTeX 类，它基于Timothy Van Zandt的sminar类。Prosper制作的幻灯可以实现动画效果、逐级显示等等特殊效果。
+
+   5）、PowerPoint + TeXPoint：一个比较不错的方案；
+
+   6)、beamer：有多种主题，漂亮，但是功能太复杂了，学习起来比较难；
+
+   7）、pdfscreen包能够帮助你在保持pdf文件方便打印的同时，方便在显示器上阅读。
+
+   8）、 PPower4 是一个用LaTeX 创建动态页面的后处理程序
+
+中文网站：http://162.105.204.144/~yuhj/wiki/TeXSlides.html，提供了很好的有关使用TeX做幻灯片的资料，Michael Wiedmann 维护的一个做Slide的综述网页网站：http://www.miwie.org/presentations/presentations.html，介绍了几十种做Slide的方案，值得参考。
+
+10、网上大全CTANcite{ctan}、TUGcite{tug}以及LaTeX导航cite{latexnavigator}是一个很不错的地方， 从那里可以学到不少知识。
+
+11、 查找一些模板以及源文件，也可以迅速上手，这方面的模板现在比较多了，几乎包含任何类型的，国外国内的都有。
+
+12、 CTeX，ChinaTeX以及Scientifis Workplace系列软件自带的模板以及帮助文件(pdf，ps，dvi，tex格式)非常实用，值得仔细研究参考。
+
+13、TUG的问题集faq是一个很不错的参考文献，最新的faq列出了三百多个问题，几乎包含了TeX和LaTeX的方方面面。
+
+14、 TeX的发明人Knuth(高德纳)的''The TeXbook''以及源文件是一个巨大的宝库，尽量使用，如果想掌握TeX的底层命令，该书必须精读。
+
+15、latex有很多的类class和包package，可是如果需要定制自己的风格，还是需要了解一点关于如何编写类和包的知识，这方面的文献也不少，ctex-faq的源文件就是一个很好的例子，此外，"LATEX2'' for class and package writers"(1998)也是一个不错的参考文献。西安交大的hooklee 编写的交大博士论文模板，写得非常详细，稍微修改一下就可以作为自己的论文模板，可以参考。
+
+16、关于宏包的说明，网上有一个截至2000年底的在线宏包说明cite{latexpackage}，可以参考。关于宏包的最全面的现在分类可以到CTAN上查找。
+
+17、关于LaTeX 的Tips and Tricks在网上可以找到一份在线参考：http://texnik.de/，该网站给出了很多非常实用的小技巧。
+
+18、现在有不少关于TeX，LaTeX与其他格式之间的实用转换工具，能极大提高工作效率，应该加以重视，尽量掌握一些常用的转换工具，网上这些工具很多，资料也比较全。
+
+19、尽可能用标准格式与标准命令，如果需要修改一些命令或者制定自己的风格，可以直接把修改的命令专门放在一个文件里，比如format.tex，然后在文章中加入命令：verb+ input{format.tex} +就可以了，如果需要发布，最好把format.tex也一起发布，并且在format.tex中附加相应的文件说明，这样对别人比较方便。
+
+20、光看不练的效果不好，许多问题只有你经历了才明白怎么回事，在解决一个个问题的同时，对TeX和LaTeX也就越来越掌握了。
+
+"Nothing Ventured， Nothing Gained."
+
+21、如果您的计算机上没有相应的帮助文件或者搜查起来麻烦，下面是从清华大学BBS的TeX版讨论区转载过来一些有关文档的说明和下载，希望对您有所帮助，下载地址在CteX的ftp上：
+
+1）、ftp.ctex.org/pub/tex/documents/bible/latex_manual.zip}，{Latex2e使用手册}(latex科技文献排版指南电子版)；
+
+2）、中文ftp.ctex.org/pub/tex/CTDP/lshort-cn/；
+
+3）、英文ftp.ctex.org/mirrors/CTAN/info/lshort/english/；
+
+4）、TeX的中文FAQ：ftp.ctex.org/pub/tex/CTDP/ctex-faq/；
+
+5）、ftp.ctex.org/pub/tex/documents/bible/latex_graphics.zip{latex插图指南(epslatex)中文版}；
+
+6）、ftp.ctex.org/mirrors/CTAN/info/epslatex.pdf{latex插图指南(using imported graphics in latex2e)英文版}；
+
+7）、ftp.ctex.org/pub/tex/documents/bible/texbook/，The TeXbook；
+
+8）、ftp.ctex.org/pub/tex/documents/bible/LaTeX_Companion_ch8.zip，{latex companion
+
+ch8(经典书籍latex companion的第八章，详细讲解数学输入)；
+
+9）、ftp.ctex.org/mirrors/CTAN/info/latexhelpbook/ {latex-help-book}；
+
+10）、ftp.ctex.org/mirrors/CTAN/graphics/gnuplot/ {Gnuplot}；
+
+其他另外的文档或宏包，请到www.ctan.org搜索，而后到对应的ftp.ctex.org/mirror/ctan下下载即可。
